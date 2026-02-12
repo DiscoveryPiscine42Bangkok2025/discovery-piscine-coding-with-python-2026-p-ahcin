@@ -9,8 +9,8 @@ def isneg(number):
         print("The result is positive and negative.")
 
 def mulyiply():
-    first_number = int(input("Enter the first number: "))
-    second_number = int(input("Enter the second number: "))
+    first_number = int(input("Enter the first number:\n"))
+    second_number = int(input("Enter the second number:\n"))
 
     result = first_number * second_number
     print(f"{first_number} x {second_number} = {result}")
